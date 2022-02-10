@@ -1,0 +1,7 @@
+gazatte_api.gazatte:
+  path: '/gazatte/list'
+  defaults:
+    _controller: '\Drupal\gazatte_api\Controller\GazatteController::gazatte'
+    _title: 'Gazatte List'
+  requirements: 
+    _permission: 'access content'
